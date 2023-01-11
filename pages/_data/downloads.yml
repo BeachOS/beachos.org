@@ -1,0 +1,390 @@
+---
+stable:
+- name: Pixel 7 Pro
+  brand: pixel
+  codename: cheetah
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/cheetah-factory-22405000.zip
+  factory_sha256: c4503c0ca62ea4fab017943519bd6599905e2c858efd8b8cb8303973a480c13d
+  ota_link: https://release.beachinstitute.org/cheetah-ota_update-22405000.zip
+  ota_sha256: 932af78bff6ced2b3cd2fe1414fdec578d7d4cee33dd40669107a07adb8c32e4
+  incremental_link: https://release.beachinstitute.org/cheetah-incremental-22404010-22405000.zip
+  incremental_sha256: 777ab01f98a7a02e7e31152b6497e59cc0ccf5151b6c8e982c10a91172d67143
+  incremental_old_build: '22404010'
+  date: '2023-01-04'
+- name: Pixel 7
+  brand: pixel
+  codename: panther
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/panther-factory-22405000.zip
+  factory_sha256: 990e47cd3a4bf6dc487d206d8c4bfa6d41f801c13b0019d277bde190d04d3da7
+  ota_link: https://release.beachinstitute.org/panther-ota_update-22405000.zip
+  ota_sha256: 5d510386c74ebbec1f5b75d2e42f367366149d6e69cd6510bf498bda86e0ec60
+  incremental_link: https://release.beachinstitute.org/panther-incremental-22404010-22405000.zip
+  incremental_sha256: acdf9c7b4ef2257dd7f5fe7e8de7e4eddbc1862e1bcb557c14cc34067fac7598
+  incremental_old_build: '22404010'
+  date: '2023-01-04'
+- name: Pixel 6a
+  brand: pixel
+  codename: bluejay
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/bluejay-factory-22405000.zip
+  factory_sha256: f98f1507f1812faf44408273d3dbc4d40a3f09da5ea1ad074df646e009bd09e2
+  ota_link: https://release.beachinstitute.org/bluejay-ota_update-22405000.zip
+  ota_sha256: b9940d6d966ceef0423325bc6b54f02275c78b612253ed1b39da0a6381d5e6a1
+  incremental_link: https://release.beachinstitute.org/bluejay-incremental-22404010-22405000.zip
+  incremental_sha256: d4a30aa5bdebd97f80497df05fde6b34f1a145b458a65d2b09f547b64e0cc419
+  incremental_old_build: '22404010'
+  date: '2023-01-04'
+- name: Pixel 6 Pro
+  brand: pixel
+  codename: raven
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/raven-factory-22405000.zip
+  factory_sha256: 987323fba4b88e1bab17655e056548692e12b91cff4be8ad6c82f6ca321034c6
+  ota_link: https://release.beachinstitute.org/raven-ota_update-22405000.zip
+  ota_sha256: 5f4bfcc09f4f32c4606446cece261975f6ef149695d8d1e3a4b23bc2a8bfd8b9
+  incremental_link: https://release.beachinstitute.org/raven-incremental-22404010-22405000.zip
+  incremental_sha256: 6f20de10f66cc97104bb61c4e86ec28f160cf005ef78cd4c6f5188e5c53e1d52
+  incremental_old_build: '22404010'
+  date: '2023-01-04'
+- name: Pixel 6
+  brand: pixel
+  codename: oriole
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/oriole-factory-22405000.zip
+  factory_sha256: 118dbd95a6b88fa0008af7201c403838a4790edf2845806f244f578a66d8dfd0
+  ota_link: https://release.beachinstitute.org/oriole-ota_update-22405000.zip
+  ota_sha256: e2acee752a1e77346945592eff93d1d3c7f837e9036a9005d975cbe0f84325a0
+  incremental_link: https://release.beachinstitute.org/oriole-incremental-22404010-22405000.zip
+  incremental_sha256: 631f9357d8bf71af387bc86808f462bcb3a29596accd770a28f4673b53dce207
+  incremental_old_build: '22404010'
+  date: '2023-01-04'
+- name: Pixel 5a (5G)
+  brand: pixel
+  codename: barbet
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/barbet-factory-22405000.zip
+  factory_sha256: f5a4cc3ed13f8d9696d7d704c619677b556861662c27adb00d2cd03881545bf7
+  ota_link: https://release.beachinstitute.org/barbet-ota_update-22405000.zip
+  ota_sha256: 12673a5b9aeda4dcf7eecd4b70e77cd0aad03c24c638dd503eb836933e0f2607
+  incremental_link: https://release.beachinstitute.org/barbet-incremental-22404010-22405000.zip
+  incremental_sha256: 4f6986e554f2191c00f2594d0caa203f3bd8d40ffdc67d1b018f3602e478b4a3
+  incremental_old_build: '22404010'
+  date: '2023-01-04'
+- name: Pixel 4a (5G)
+  brand: pixel
+  codename: bramble
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/bramble-factory-22405000.zip
+  factory_sha256: 2fa33d337e6d5227192a5718164fb4c8ce0c3bf326a47fed459c6ad738c1d045
+  ota_link: https://release.beachinstitute.org/bramble-ota_update-22405000.zip
+  ota_sha256: e93cd2609ea1064939bd40e5c03fca928d70d33cf4ad675ff3ca28fe7f230db9
+  incremental_link: https://release.beachinstitute.org/bramble-incremental-22404010-22405000.zip
+  incremental_sha256: ee76328aba8b79eb1c6621b262be1347bf768a6fc4dab12e739fa17d9a9ed303
+  incremental_old_build: '22404010'
+  date: '2023-01-04'
+- name: Pixel 5
+  brand: pixel
+  codename: redfin
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/redfin-factory-22405000.zip
+  factory_sha256: 53dd0a54f2cc27db689b86582048e2f077376fc8b08f8df9b3bf796745d6b84f
+  ota_link: https://release.beachinstitute.org/redfin-ota_update-22405000.zip
+  ota_sha256: 2f406a8f797cd1322f3866c7c51e3978573e14b4ea467c147e6b57705c7811b3
+  incremental_link: https://release.beachinstitute.org/redfin-incremental-22404010-22405000.zip
+  incremental_sha256: 552db7caca7ea598cd06e5c1e2e31ccc268bd86216c9a8764a02689101579b24
+  incremental_old_build: '22404010'
+  date: '2023-01-04'
+- name: Pixel 4a
+  brand: pixel
+  codename: sunfish
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/sunfish-factory-22405000.zip
+  factory_sha256: 364b21ce7193497a43768115b8bcb44b53daf67070662fbf75fd7207bea5b4a7
+  ota_link: https://release.beachinstitute.org/sunfish-ota_update-22405000.zip
+  ota_sha256: 12264d5c67212a4e60f3b8919c2d1c8d51af9e3e8900a16d848f91afa68e6bd2
+  incremental_link: https://release.beachinstitute.org/sunfish-incremental-22404010-22405000.zip
+  incremental_sha256: e4f2d88149f78b6944d7811dc762af4959e6ba64bfe424baa19b768e2f3a04e5
+  incremental_old_build: '22404010'
+  date: '2023-01-04'
+- name: Pixel 4 XL
+  brand: pixel
+  codename: coral
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/coral-factory-22405000.zip
+  factory_sha256: a247c5ab9a34baec0373536bedbb21266dbb21ea7c5ef74c285bf6b81a96a96d
+  ota_link: https://release.beachinstitute.org/coral-ota_update-22405000.zip
+  ota_sha256: 74df238117105cffefc30dbced5690877796890fbfdf83f0c5e868e4852e421d
+  incremental_link: https://release.beachinstitute.org/coral-incremental-22404010-22405000.zip
+  incremental_sha256: 787a2f06c65fb19822d4421f1e666faf7298d044ce25868cb96c1db398eb81ae
+  incremental_old_build: '22404010'
+  date: '2023-01-04'
+- name: Pixel 4
+  brand: pixel
+  codename: flame
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/flame-factory-22405000.zip
+  factory_sha256: c7bfae8320802bbc790132bca59f98b792b5aa9cf4a1bc2aba015e0a7424f53e
+  ota_link: https://release.beachinstitute.org/flame-ota_update-22405000.zip
+  ota_sha256: 4fba8104e901daaa5d64fe36fc2fd420f6edc1f72122b29b5d96c3f4a21d76b7
+  incremental_link: https://release.beachinstitute.org/flame-incremental-22404010-22405000.zip
+  incremental_sha256: 4d73007f3b42fb7ec1bb7692a3d937c3c157826204d58d958510414a5d659401
+  incremental_old_build: '22404010'
+  date: '2023-01-04'
+- name: Pixel 3a XL
+  brand: pixel
+  codename: bonito
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/bonito-factory-22405000.zip
+  factory_sha256: 51ca219b2b57cc78ffa538a7b8215ba9af496736d8aae0150463b70f93dbfba7
+  ota_link: https://release.beachinstitute.org/bonito-ota_update-22405000.zip
+  ota_sha256: 6fb5e767f48ed9c0e640a97fc06695d6004764c7b089f35611a9fea1fb338e8d
+  incremental_link: https://release.beachinstitute.org/bonito-incremental-22404010-22405000.zip
+  incremental_sha256: 6be6283929782709f039ec3156bc8a59aaa32aaa10c74c89bbd87b20b5da9889
+  incremental_old_build: '22404010'
+  date: '2023-01-04'
+- name: Pixel 3a
+  brand: pixel
+  codename: sargo
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/sargo-factory-22405000.zip
+  factory_sha256: d4a39214a8c940460c267a5914c4263b9ccb69122a2a78d466901b1a900aeacd
+  ota_link: https://release.beachinstitute.org/sargo-ota_update-22405000.zip
+  ota_sha256: f11403ee2fe43e22038e4e1d4d55902f158cc1e590ef2d839faf1b99267b2773
+  incremental_link: https://release.beachinstitute.org/sargo-incremental-22404010-22405000.zip
+  incremental_sha256: d0e15375378a228405eb45980721e62d02b3223403700044b25b814c9f3a0f91
+  incremental_old_build: '22404010'
+  date: '2023-01-04'
+- name: Pixel 3 XL
+  brand: pixel
+  codename: crosshatch
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/crosshatch-factory-22405000.zip
+  factory_sha256: ec0ecb13ed40f7d25a780e44e319309c349be7c128bfaf47d476c9ab2aefac98
+  ota_link: https://release.beachinstitute.org/crosshatch-ota_update-22405000.zip
+  ota_sha256: 3a7ff8dde5badd69fc7804a2be2df619211482c08e3161cb870fc0021d68d8e0
+  incremental_link: https://release.beachinstitute.org/crosshatch-incremental-22404010-22405000.zip
+  incremental_sha256: 83ff32ab156d85de74d4983552c8ef9ca4dfbdc3c1f9ef628fe8514a13f6289a
+  incremental_old_build: '22404010'
+  date: '2023-01-04'
+- name: Pixel 3
+  brand: pixel
+  codename: blueline
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/blueline-factory-22405000.zip
+  factory_sha256: 3330d9997133615b1f02af913e0b8031d5d60c47eba4509a1565e18cf23085ef
+  ota_link: https://release.beachinstitute.org/blueline-ota_update-22405000.zip
+  ota_sha256: 6a20cd4ef0450787bc2d116f2b4a6c1043b0834db53ce315ad1603c4feef18f0
+  incremental_link: https://release.beachinstitute.org/blueline-incremental-22404010-22405000.zip
+  incremental_sha256: 5b64dae8ecc99dcf188e6de206c7349d6c16aef12e1cdf328e17a923068f022c
+  incremental_old_build: '22404010'
+  date: '2023-01-04'
+- name: Fairphone 4
+  brand: fairphone
+  codename: FP4
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/FP4-factory-22405000.zip
+  factory_sha256: 6c21121d36420c3f62ce7bae72f8c3485b1105ca20938e6fd31e481d0608bfab
+  ota_link: https://release.beachinstitute.org/FP4-ota_update-22405000.zip
+  ota_sha256: '08f3ee7c4150e415c4db23247c8e0086551a41e25749c1b56ae4672cb5b541bc'
+  incremental_link: https://release.beachinstitute.org/FP4-incremental-22404010-22405000.zip
+  incremental_sha256: 1f280fb219e5ad79b778bc6fcfe5537cb07dcc451479e0a14c1974f60609c82a
+  incremental_old_build: '22404010'
+  date: '2023-01-04'
+beta:
+- name: Pixel 7 Pro
+  brand: pixel
+  codename: cheetah
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/cheetah-factory-22405000.zip
+  factory_sha256: c4503c0ca62ea4fab017943519bd6599905e2c858efd8b8cb8303973a480c13d
+  ota_link: https://release.beachinstitute.org/cheetah-ota_update-22405000.zip
+  ota_sha256: 932af78bff6ced2b3cd2fe1414fdec578d7d4cee33dd40669107a07adb8c32e4
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-01-04'
+- name: Pixel 7
+  brand: pixel
+  codename: panther
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/panther-factory-22405000.zip
+  factory_sha256: 990e47cd3a4bf6dc487d206d8c4bfa6d41f801c13b0019d277bde190d04d3da7
+  ota_link: https://release.beachinstitute.org/panther-ota_update-22405000.zip
+  ota_sha256: 5d510386c74ebbec1f5b75d2e42f367366149d6e69cd6510bf498bda86e0ec60
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-01-04'
+- name: Pixel 6a
+  brand: pixel
+  codename: bluejay
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/bluejay-factory-22405000.zip
+  factory_sha256: f98f1507f1812faf44408273d3dbc4d40a3f09da5ea1ad074df646e009bd09e2
+  ota_link: https://release.beachinstitute.org/bluejay-ota_update-22405000.zip
+  ota_sha256: b9940d6d966ceef0423325bc6b54f02275c78b612253ed1b39da0a6381d5e6a1
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-01-04'
+- name: Pixel 6 Pro
+  brand: pixel
+  codename: raven
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/raven-factory-22405000.zip
+  factory_sha256: 987323fba4b88e1bab17655e056548692e12b91cff4be8ad6c82f6ca321034c6
+  ota_link: https://release.beachinstitute.org/raven-ota_update-22405000.zip
+  ota_sha256: 5f4bfcc09f4f32c4606446cece261975f6ef149695d8d1e3a4b23bc2a8bfd8b9
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-01-04'
+- name: Pixel 6
+  brand: pixel
+  codename: oriole
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/oriole-factory-22405000.zip
+  factory_sha256: 118dbd95a6b88fa0008af7201c403838a4790edf2845806f244f578a66d8dfd0
+  ota_link: https://release.beachinstitute.org/oriole-ota_update-22405000.zip
+  ota_sha256: e2acee752a1e77346945592eff93d1d3c7f837e9036a9005d975cbe0f84325a0
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-01-04'
+- name: Pixel 5a (5G)
+  brand: pixel
+  codename: barbet
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/barbet-factory-22405000.zip
+  factory_sha256: f5a4cc3ed13f8d9696d7d704c619677b556861662c27adb00d2cd03881545bf7
+  ota_link: https://release.beachinstitute.org/barbet-ota_update-22405000.zip
+  ota_sha256: 12673a5b9aeda4dcf7eecd4b70e77cd0aad03c24c638dd503eb836933e0f2607
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-01-04'
+- name: Pixel 4a (5G)
+  brand: pixel
+  codename: bramble
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/bramble-factory-22405000.zip
+  factory_sha256: 2fa33d337e6d5227192a5718164fb4c8ce0c3bf326a47fed459c6ad738c1d045
+  ota_link: https://release.beachinstitute.org/bramble-ota_update-22405000.zip
+  ota_sha256: e93cd2609ea1064939bd40e5c03fca928d70d33cf4ad675ff3ca28fe7f230db9
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-01-04'
+- name: Pixel 5
+  brand: pixel
+  codename: redfin
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/redfin-factory-22405000.zip
+  factory_sha256: 53dd0a54f2cc27db689b86582048e2f077376fc8b08f8df9b3bf796745d6b84f
+  ota_link: https://release.beachinstitute.org/redfin-ota_update-22405000.zip
+  ota_sha256: 2f406a8f797cd1322f3866c7c51e3978573e14b4ea467c147e6b57705c7811b3
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-01-04'
+- name: Pixel 4a
+  brand: pixel
+  codename: sunfish
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/sunfish-factory-22405000.zip
+  factory_sha256: 364b21ce7193497a43768115b8bcb44b53daf67070662fbf75fd7207bea5b4a7
+  ota_link: https://release.beachinstitute.org/sunfish-ota_update-22405000.zip
+  ota_sha256: 12264d5c67212a4e60f3b8919c2d1c8d51af9e3e8900a16d848f91afa68e6bd2
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-01-04'
+- name: Pixel 4 XL
+  brand: pixel
+  codename: coral
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/coral-factory-22405000.zip
+  factory_sha256: a247c5ab9a34baec0373536bedbb21266dbb21ea7c5ef74c285bf6b81a96a96d
+  ota_link: https://release.beachinstitute.org/coral-ota_update-22405000.zip
+  ota_sha256: 74df238117105cffefc30dbced5690877796890fbfdf83f0c5e868e4852e421d
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-01-04'
+- name: Pixel 4
+  brand: pixel
+  codename: flame
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/flame-factory-22405000.zip
+  factory_sha256: c7bfae8320802bbc790132bca59f98b792b5aa9cf4a1bc2aba015e0a7424f53e
+  ota_link: https://release.beachinstitute.org/flame-ota_update-22405000.zip
+  ota_sha256: 4fba8104e901daaa5d64fe36fc2fd420f6edc1f72122b29b5d96c3f4a21d76b7
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-01-04'
+- name: Pixel 3a XL
+  brand: pixel
+  codename: bonito
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/bonito-factory-22405000.zip
+  factory_sha256: 51ca219b2b57cc78ffa538a7b8215ba9af496736d8aae0150463b70f93dbfba7
+  ota_link: https://release.beachinstitute.org/bonito-ota_update-22405000.zip
+  ota_sha256: 6fb5e767f48ed9c0e640a97fc06695d6004764c7b089f35611a9fea1fb338e8d
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-01-04'
+- name: Pixel 3a
+  brand: pixel
+  codename: sargo
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/sargo-factory-22405000.zip
+  factory_sha256: d4a39214a8c940460c267a5914c4263b9ccb69122a2a78d466901b1a900aeacd
+  ota_link: https://release.beachinstitute.org/sargo-ota_update-22405000.zip
+  ota_sha256: f11403ee2fe43e22038e4e1d4d55902f158cc1e590ef2d839faf1b99267b2773
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-01-04'
+- name: Pixel 3 XL
+  brand: pixel
+  codename: crosshatch
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/crosshatch-factory-22405000.zip
+  factory_sha256: ec0ecb13ed40f7d25a780e44e319309c349be7c128bfaf47d476c9ab2aefac98
+  ota_link: https://release.beachinstitute.org/crosshatch-ota_update-22405000.zip
+  ota_sha256: 3a7ff8dde5badd69fc7804a2be2df619211482c08e3161cb870fc0021d68d8e0
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-01-04'
+- name: Pixel 3
+  brand: pixel
+  codename: blueline
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/blueline-factory-22405000.zip
+  factory_sha256: 3330d9997133615b1f02af913e0b8031d5d60c47eba4509a1565e18cf23085ef
+  ota_link: https://release.beachinstitute.org/blueline-ota_update-22405000.zip
+  ota_sha256: 6a20cd4ef0450787bc2d116f2b4a6c1043b0834db53ce315ad1603c4feef18f0
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-01-04'
+- name: Fairphone 4
+  brand: fairphone
+  codename: FP4
+  version: 4.5.0
+  factory_link: https://release.beachinstitute.org/FP4-factory-22405000.zip
+  factory_sha256: 6c21121d36420c3f62ce7bae72f8c3485b1105ca20938e6fd31e481d0608bfab
+  ota_link: https://release.beachinstitute.org/FP4-ota_update-22405000.zip
+  ota_sha256: '08f3ee7c4150e415c4db23247c8e0086551a41e25749c1b56ae4672cb5b541bc'
+  incremental_link:
+  incremental_sha256:
+  incremental_old_build:
+  date: '2023-01-04'
+releases:
+- stable
+- beta

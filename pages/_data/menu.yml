@@ -1,0 +1,34 @@
+---
+- features
+- community:
+  - code-of-conduct
+- docs:
+  - about:
+    - team
+  - guide:
+    - apps
+    - device-support
+    - faq
+    - microg
+    - updates
+    - security:
+      - security-faq
+      - bootloader-lock
+      - identifiers
+      - location
+      - network-activity
+      - bulletin
+  - tech:
+    - microg-details
+    - datura-details
+  - development:
+    - contribute
+    - gerrit
+    - build:
+      - app-microg
+      - chromium
+      - emulator
+      - kernel
+      - production
+      - sign
+- news

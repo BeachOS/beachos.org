@@ -1,0 +1,406 @@
+---
+apps:
+- packageName: com.aurora.store
+  webSite: http://auroraoss.com
+  description: |-
+    This **Aurora Store** is a complete rewrite, replacing https://f-droid.org/packages/com.dragons.aurora.
+
+    Aurora Store is an alternate to Google's Play Store, with an elegant design,
+    using Aurora you can download apps, update existing apps, search for apps,
+    get details about in-app trackers, spoof your location and much more.
+  name: Aurora Store
+  summary: A Google Playstore Client
+  icon: ''
+  license: GPL-3.0-or-later
+  categories:
+  - System
+  - Default
+  sourceCode: https://gitlab.com/AuroraOSS/AuroraStore
+  donate: https://www.paypal.me/whyorean
+  issueTracker: https://gitlab.com/AuroraOSS/AuroraStore/issues
+  iconUrl: "/assets/images/apps/com.aurora.store.png"
+  slug: aurora-store
+- packageName: org.briarproject.briar.android
+  webSite: https://briarproject.org/
+  description: |-
+    Briar is a messaging app designed for activists, journalists, and anyone else
+    who needs a safe, easy and robust way to communicate. Unlike traditional
+    messaging tools such as email, Twitter or Telegram, Briar doesn't rely on a
+    central server - messages are synchronized directly between the users' devices.
+    If the Internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the
+    information flowing in a crisis. If the Internet's up, Briar can sync via the
+    Tor network, protecting users and their relationships from surveillance.
+  name: Briar
+  summary: Secure Messaging, Anywhere
+  icon: ''
+  license: GPL-3.0-or-later
+  categories:
+  - Connectivity
+  - Internet
+  - Security
+  - Default
+  sourceCode: https://code.briarproject.org/briar/briar
+  donate: ''
+  issueTracker: https://code.briarproject.org/briar/briar/issues
+  iconUrl: "/assets/images/apps/org.briarproject.briar.android.png"
+  slug: briar
+- packageName: org.beachinstitute.vpn
+  webSite: https://beach.net
+  description: |-
+    BeachVPN is an application to provide easy and secure encrypted communication.
+    The app is a custom branded build of https://f-droid.org/packages/se.leap.bitmaskclient. This version is
+    preconfigured with one trusted provider—The Beach Institute—and allows
+    anonymous VPN usage without any manual setup.
+
+    By encrypting and securely routing all your network traffic through Beach's
+    servers, BeachVPN is able to prevent many forms of censorship and surveillance.
+  name: Beach VPN
+  summary: Free VPN Service offered by The Beach Institute
+  icon: org.beachinstitute.vpn.160000.png
+  license: GPL-3.0-only
+  categories:
+  - Internet
+  - Security
+  - Default
+  sourceCode: https://gitlab.com/beachos/bitmask_android
+  donate: https://beachinstitute.org/
+  issueTracker: https://gitlab.com/beachos/bitmask_android/issues
+  iconUrl: "/assets/images/apps/org.beachinstitute.vpn.png"
+  slug: beach-vpn
+- packageName: at.bitfire.davdroid
+  webSite: https://www.davx5.com/
+  description: ''
+  name: DAVx⁵
+  summary: CalDAV/CardDAV Synchronization and Client
+  icon: ''
+  license: GPL-3.0-only
+  categories:
+  - Internet
+  - Default
+  sourceCode: https://www.davx5.com/source
+  donate: https://www.davx5.com/donate
+  issueTracker: https://www.davx5.com/forums
+  iconUrl: "/assets/images/apps/at.bitfire.davdroid.png"
+  slug: davx-
+- packageName: wangdaye.com.geometricweather
+  webSite: ''
+  description: ''
+  name: Geometric Weather
+  summary: A lightweight, powerful, open-source Material Design weather app.
+  icon: ''
+  license: LGPL-3.0-only
+  categories:
+  - Default
+  - Internet
+  sourceCode: https://github.com/WangDaYeeeeee/GeometricWeather
+  donate: ''
+  issueTracker: https://github.com/WangDaYeeeeee/GeometricWeather/issues
+  iconUrl: "/assets/images/apps/wangdaye.com.geometricweather.png"
+  slug: geometric-weather
+- packageName: com.fsck.k9
+  webSite: https://k9mail.app/
+  description: |-
+    E-mail client supporting multiple accounts, POP3, IMAP and Push IMAP. Can do
+    OpenPGP encryption if https://f-droid.org/packages/org.sufficientlysecure.keychain is installed. Settings
+    and account configurations can be exported so that they can be imported easily
+    if you are switching packages/signatures: a file manager will need to be already
+    installed to achieve this.
+  name: K-9 Mail
+  summary: Full-featured email client
+  icon: ''
+  license: Apache-2.0
+  categories:
+  - Internet
+  - Default
+  sourceCode: https://github.com/k9mail/k-9
+  donate: ''
+  issueTracker: https://github.com/k9mail/k-9/issues
+  iconUrl: "/assets/images/apps/com.fsck.k9.png"
+  slug: k-9-mail
+- packageName: com.artifex.mupdf.viewer.app
+  webSite: https://mupdf.com
+  description: |-
+    MuPDF supports PDF 1.7 with transparency, encryption, hyperlinks, annotations,
+    searching, form editing and more. It also reads OpenXPS and CBZ (comic book)
+    documents.
+  name: MuPDF viewer
+  summary: Lightweight document viewer
+  icon: ''
+  license: AGPL-3.0-or-later
+  categories:
+  - Reading
+  - Default
+  sourceCode: https://git.ghostscript.com/?p=mupdf-android-viewer.git;a=summary
+  donate: ''
+  issueTracker: https://bugs.ghostscript.com
+  iconUrl: "/assets/images/apps/com.artifex.mupdf.viewer.app.png"
+  slug: mupdf-viewer
+- packageName: com.nextcloud.client
+  webSite: https://nextcloud.com
+  description: |-
+    A safe home for all your data. Access & share your files, calendars, contacts,
+    mail & more from any device, on your terms. This is the official Android app.
+
+    **Features:**
+
+
+    * Easy, modern interface
+    * Upload your files to your Nextcloud server
+    * Share your files with others
+    * Keep your favorite files and folders synced
+    * Instant Upload for photos and videos taken by your device
+    * Multi-account support
+  name: Nextcloud
+  summary: Synchronization client
+  icon: ''
+  license: GPL-2.0-only
+  categories:
+  - Internet
+  sourceCode: https://github.com/nextcloud/android
+  donate: https://nextcloud.com/include/
+  issueTracker: https://github.com/nextcloud/android/issues
+  iconUrl: "/assets/images/apps/com.nextcloud.client.png"
+  slug: nextcloud
+- packageName: org.openobservatory.ooniprobe
+  webSite: https://ooni.torproject.org/
+  description: |-
+    Are websites and social media apps blocked? Is your network unusually slow?
+    Run OONI Probe to find out!
+
+    With this app, you will examine the blocking of websites and instant
+    messaging apps, measure your network’s speed and performance, and check
+    whether systems that could be responsible for censorship and surveillance
+    are in your network.
+
+    OONI Probe is developed by the Open Observatory of Network Interference
+    (OONI), a free software project (under The Tor Project) that aims to uncover
+    internet censorship around the world.
+
+    Since 2012, OONI’s global community has collected millions of network
+    measurements from more than 200 countries, shedding light on multiple cases
+    of network interference.
+
+    **Collect evidence of internet censorship**
+
+    You can check whether and how websites and instant messaging apps are
+    blocked. The network measurement data you will collect may serve as evidence
+    of internet censorship.
+
+    **Detect systems responsible for censorship and surveillance**
+
+    OONI Probe tests are also designed to uncover the presence of systems
+    (middleboxes) that could be responsible for censorship and surveillance.
+
+    **Measure the speed and performance of your network**
+
+    You can measure the speed and performance of your network by running OONI’s
+    implementation of the Network Diagnostic Test (NDT). You can also measure
+    video streaming performance with the Dynamic Adaptive Streaming over HTTP
+    (DASH) test.
+
+    **Open data**
+
+    OONI publishes network measurement data because open data allows third
+    parties to verify OONI findings, conduct independent studies, and answer
+    other research questions. Openly publishing OONI data also helps increase
+    transparency of internet censorship around the world. You can explore and
+    download OONI data here: https://ooni.io/data/
+
+    **Free software**
+
+    All OONI Probe tests (including our NDT and DASH implementations), are based
+    on free and open source software. You can find OONI software projects
+    <a href="https://github.com/ooni">on Github</a>. Curious to learn how OONI Probe tests
+    work? Learn more <a href="https://ooni.io/nettest">here</a>.
+
+    To receive updates from the OONI-verse,
+    <a href="https://twitter.com/OpenObservatory">follow us on Twitter</a>
+
+    Disclaimer: Running OONI Probe might be against the terms of service of your ISP
+    or legally questionable in your country. By running OONI Probe, you will connect
+    to web services which might be banned. The OONI project will publish data
+    submitted by probes, possibly including your IP address or other identifying
+    information. In addition, your use of OONI Probe will be clear to anyone who has
+    access to your computer, and to anyone who can monitor your Internet connection
+    (such as your employer, ISP or government). Learn more about potential risks
+    <a href="https://ooni.torproject.org/about/risks">here</a>
+  name: OONI Probe
+  summary: Open Observatory of Network Interference (OONI)
+  icon: ''
+  license: BSD-2-Clause
+  categories:
+  - Internet
+  - Security
+  - Default
+  sourceCode: https://github.com/ooni/probe-android
+  donate: ''
+  issueTracker: https://github.com/ooni/probe-android/issues
+  iconUrl: "/assets/images/apps/org.openobservatory.ooniprobe.png"
+  slug: ooni-probe
+- packageName: org.torproject.android
+  webSite: https://www.torproject.org/docs/android.html
+  description: |
+    Tor is both software and an open network that helps you defend against network
+    surveillance that threatens personal freedom and privacy, confidential business
+    activities and relationships.
+
+    Orbot allows access to Tor by accessing a local SOCKS or HTTP proxy.
+    On a rooted device, the proxying can be completely transparent
+    i.e. the app that accesses the network need not be aware of the
+    proxy's existence; you can choose which apps go via the proxy in the
+    settings.
+
+    If you don't have root access, there are some apps that are designed to work
+    closely with tor or allow proxied connections:
+    https://f-droid.org/packages/info.guardianproject.otr.app.im, https://f-droid.org/packages/acr.browser.lightning and
+    https://f-droid.org/packages/org.mariotaku.twidere. There is also a proxy configurator addon for Firefox
+    called <a href="https://github.com/guardianproject/ProxyMob/downloads">ProxyMob</a> (not yet
+    available from the Mozilla addon site).
+  name: Orbot
+  summary: Enhance your privacy, break through firewalls and communicate more safely.
+  icon: ''
+  license: BSD-3-Clause
+  categories:
+  - Security
+  - Internet
+  - Default
+  sourceCode: https://gitweb.torproject.org/orbot.git
+  donate: https://www.torproject.org/donate/donate.html.en
+  issueTracker: https://dev.guardianproject.info/projects/orbot/issues
+  iconUrl: "/assets/images/apps/org.torproject.android.png"
+  slug: orbot
+- packageName: app.organicmaps
+  webSite: https://organicmaps.app/
+  description: |-
+    Organic Maps offers fast offline maps app for travelers, tourists, hikers and cyclists based on top of crowd-sourced OpenStreetMap data and curated with love by MAPS.ME founders.
+
+    * Detailed offline maps with places that don't exist on other maps
+    * Cycling routes, hiking trails and walking paths
+    * Contour lines, elevation profiles, peaks and slopes
+    * Turn-by-turn walking, cycling and car navigation with voice guidance
+    * Fast offline search on the map and bookmarks
+    * Dark mode to protect your eyes
+    * No ads, no trackers, no data collection, no crapware, no pesticides
+  name: Organic Maps
+  summary: Offline maps with turn-by-turn navigation
+  icon: ''
+  license: Apache-2.0
+  categories:
+  - Navigation
+  - Default
+  sourceCode: https://github.com/organicmaps/organicmaps/tree/HEAD
+  donate: ''
+  issueTracker: https://github.com/organicmaps/organicmaps/issues
+  iconUrl: "/assets/images/apps/app.organicmaps.png"
+  slug: organic-maps
+- packageName: se.leap.riseupvpn
+  webSite: https://riseup.net/
+  description: |-
+    RiseupVPN is an application to provide easy and secure encrypted communication.
+    The app is a custom branded build of https://f-droid.org/packages/se.leap.bitmaskclient. This version is
+    preconfigured with one trusted provider—the Riseup collective—and allows
+    anonymous VPN usage without any manual setup.
+
+    By encrypting and securely routing all your network traffic through Riseup’s
+    servers, RiseupVPN is able to prevent many forms of censorship and surveillance.
+  name: Riseup VPN
+  summary: Secure VPN powered by Bitmask
+  icon: se.leap.riseupvpn.162000.png
+  license: GPL-3.0-only
+  categories:
+  - Internet
+  - Security
+  - Default
+  sourceCode: https://0xacab.org/leap/bitmask_android
+  donate: https://riseup.net/vpn/donate
+  issueTracker: https://0xacab.org/leap/bitmask_android/issues
+  iconUrl: "/assets/images/apps/se.leap.riseupvpn.png"
+  slug: riseup-vpn
+- packageName: com.jarsilio.android.scrambledeggsif
+  webSite: ''
+  description: ''
+  name: Scrambled Exif
+  summary: Remove the metadata from your pictures before sharing them
+  icon: ''
+  license: GPL-3.0-only
+  categories:
+  - System
+  - Default
+  sourceCode: https://gitlab.com/juanitobananas/scrambled-exif/tree/HEAD
+  donate: ''
+  issueTracker: https://gitlab.com/juanitobananas/scrambled-exif/issues
+  iconUrl: "/assets/images/apps/com.jarsilio.android.scrambledeggsif.png"
+  slug: scrambled-exif
+- packageName: org.thoughtcrime.securesms
+  webSite: https://www.signal.org
+  description: |-
+    Privacy is possible. Signal makes it easy.
+
+    Using Signal, you can communicate instantly while avoiding SMS fees, create groups so that you can chat in real time with all your friends at once, and share media or other files all with complete privacy. Signal's servers never have access to any of your communication and never store any of your data.
+
+    ★ Say Anything. Signal uses an advanced end-to-end encryption protocol to keep your conversations private. Every message, every call, every time.
+
+    ★ Open Source. Signal is Free and Open Source, enabling anyone to verify its security by auditing the code. Signal is the only private messenger that uses open source peer-reviewed cryptographic protocols to keep your messages and calls safe.
+
+    ★ Be Yourself - Signal uses your existing phone number and address book. There are no separate logins, usernames, passwords, or PINs to manage or lose.
+
+    ★ Group Chat. Signal allows you to create encrypted groups so you can have private conversations with all your friends at once. Not only are the messages encrypted, but the Signal server never has access to any group metadata such as the membership list, group title, or group icon.
+
+    ★ Fast. The Signal protocol is designed to operate in the most constrained environment possible. Using Signal, messages are instantly delivered to friends.
+
+    ★ Speak Freely - Make crystal-clear phone calls to people who live across town, or across the ocean, with no long-distance charges.
+  name: Signal
+  summary: Signal Private Messenger
+  icon: ''
+  license: GPL-3.0-only
+  categories:
+  - Internet
+  - Default
+  sourceCode: https://github.com/signalapp/Signal-Android
+  donate: ''
+  issueTracker: https://support.signal.org/
+  iconUrl: "/assets/images/apps/org.thoughtcrime.securesms.png"
+  slug: signal
+- packageName: org.torproject.torbrowser
+  webSite: ''
+  description: |
+    Tor Browser for Android is the only official mobile browser supported by the Tor Project, developers of the world’s strongest tool for privacy and freedom online.
+
+    BLOCK TRACKERS
+    Tor Browser isolates each website you visit so third-party trackers and ads can’t follow you. Any cookies automatically clear when you’re done browsing.
+
+    DEFEND AGAINST SURVEILLANCE
+    Tor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you’re using Tor.
+
+    RESIST FINGERPRINTING
+    Tor aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.
+
+    MULTI-LAYERED ENCRYPTION
+    When you use Tor Browser for Android, your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays. Watch this animation to learn more about how it works:
+
+    BROWSE FREELY
+    With Tor Browser for Android, you are free to access sites your local internet service provider may have blocked.
+
+    THIS APP IS MADE POSSIBLE BY DONORS LIKE YOU
+    Tor Browser is free and open source software developed the Tor Project, a nonprofit organization. You can help keep Tor strong, secure, and independent by making a donation. Give before the end of 2019, and Mozilla will match your gift: https://donate.torproject.org/donate/donate-tbi-gp
+
+    Learn more about Tor Browser for Android:
+    - Need help? Visit https://support.torproject.org. The manual is coming soon.
+    - Learn more about what’s happening at Tor: https://blog.torproject.org
+    - Follow the Tor Project on Twitter: https://twitter.com/torproject
+
+    ABOUT THE TOR PROJECT
+    The Tor Project, Inc., is a 501(c)(3) organization developing free and open source software for privacy and freedom online, protecting people from tracking, surveillance, and censorship. The Tor Project’s mission is to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, support their unrestricted availability and use, and further their scientific and popular understanding.
+  name: Tor Browser for Android
+  summary: Experience real private browsing without tracking, surveillance, or censorship.
+  icon: ''
+  license: MPL-2.0
+  categories:
+  - Security
+  - Internet
+  - Default
+  sourceCode: https://gitweb.torproject.org/tor-browser.git
+  donate: https://donate.torproject.org/
+  issueTracker: https://gitlab.torproject.org/tpo/applications/tor-browser/issues
+  iconUrl: "/assets/images/apps/org.torproject.torbrowser.png"
+  slug: tor-browser-for-android

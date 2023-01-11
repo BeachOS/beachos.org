@@ -1,0 +1,10 @@
+/static
+/test
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+/vendor
+/tmp
+/.bundle
+.DS_Store
+/bin

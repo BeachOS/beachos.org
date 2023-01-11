@@ -1,0 +1,28 @@
+---
+title: Contribute to BeachOS
+description: 💁 Want to get involved? We'd love your help!
+nav_title: Contribute
+redirect_from:
+    - /contribute/
+    - /development/contribute/
+---
+
+## Donate
+
+Your tax-deductible donation to Beach Institute will fund our development of BeachOS.
+
+The Beach Institute's mission is to educate the public about privacy in digital communications and to develop tools that anyone can use to build "privacy by design" into their internet access. By developing encryption and anonymity tools that can help users maintain their privacy, we hope to make online security easier and more accessible for everyone online.
+
+<a class="btn btn-outline-secondary" href="https://members.beachinstitute.org/donate">Donate Now</a>
+
+<br />
+
+## Translation
+
+Missing your language?
+
+Help us by translating BeachOS on [Weblate](https://hosted.weblate.org/projects/beachos)
+
+We also use translations from LineageOS, for contributing to them check [LineageOS wiki, how to translate](https://wiki.lineageos.org/how-to/translate)
+
+<br />

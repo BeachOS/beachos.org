@@ -1,0 +1,14 @@
+{% if page.icon -%}
+<div class="with-icon">
+  <div class="icon">
+    <img class="header-icon" src="{{ page.icon | relative_url }}" />
+  </div>
+  <div class="text">
+    <h1><span class="highlighter">{{ page.title }}</span></h1>
+    {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+  </div>
+</div>
+{% else -%}
+<h1><span class="highlighter">{{ page.title }}</span></h1>
+{% if page.description %}<p>{{ page.description }}</p>{% endif %}
+{% endif -%}

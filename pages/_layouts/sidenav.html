@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{% html_lang %}" dir="{% html_dir %}">
+{% include head.html %}
+  <body>
+    {% include header.html %}
+    <main>
+      <section class="secondaryIntro">
+        <div class="wrapper sidebar-spacing">
+          {% include intro.html %}
+        </div>
+      </section>
+      <div class="wrapper sidebar">
+        {% include side_navigation.html %}
+        <section class="content primaryContent">
+          {% include toc.html %}
+          {% include content.html %}
+        </section>
+      </div>
+    </main>
+    <footer>
+      {% include footer.html %}
+    </footer>
+  </body>
+</html>

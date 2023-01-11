@@ -1,0 +1,44 @@
+---
+title: Building BeachOS's Chromium fork
+nav_title: Build Chromium
+redirect_from:
+   - /contribute/build/chromium/
+   - /development/build/chromium/
+---
+
+Chromium is the primary browser, and also responsible for providing WebView, a component used by many, many apps (more than you think!)
+
+It has it's own build system and is built separately.
+
+BeachOS usually tracks the Chrome Android stable release, you can see the latest version at <https://chromiumdash.appspot.com/releases?platform=Android>.
+Look for the first version under 'Stable'
+
+Stable version at time of writing this: 107.0.5304.105
+
+`export V=107.0.5304.105 # Replace this with the correct version`
+
+## Short version
+* This assumes you have a Chromium build environment already setup and have built it before
+
+Steps:
+1. Fetch the tag and create a new branch from it.
+   * `cd ~/chromium/src`
+   * `git fetch --tags $V && git checkout -b beachos-$V $V`
+   * `gclient sync -D; gclient runhooks`
+2. Fetch our patches and build configuration
+   * `cd ~/chromium`
+   * `git clone https://gitlab.com/BeachOS/platform_external_beach_chromium -b android13`
+3. Apply patches (you version has to match the version in args.gn)
+   * `cd ~/chromium/src`
+   * `for i in $(cat ../platform_external_beach_chromium/build/*_patches_list.txt); do git am ../platform_external_beach_chromium/build/patches/$i; done`
+4. Setup build config
+   * `gn args out/Default`
+   * You want to fill out the args from `platform_external_beach_chromium/build/beach.gn_args` now.
+   * You can also modify `target_cpu` if needed.
+5. Build
+   * `autoninja -C out/Default trichrome_chrome_64_32_bundle trichrome_library_64_32_apk trichrome_webview_64_32_apk system_webview_shell_apk`
+6. Process output
+   * `cd ~/chromium/src/out/Default/apks`
+   * `java -jar ../../../third_party/android_build_tools/bundletool/bundletool.jar build-apks --mode universal --bundle TrichromeChrome6432.aab --output . --output-format DIRECTORY`
+7. Done
+   * You can now copy the APKs to `prebuilts/beach/chromium/arm64/` for usage in the OS build.

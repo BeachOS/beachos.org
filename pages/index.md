@@ -1,0 +1,9 @@
+---
+layout: home
+nav_title: Home
+---
+
+
+<strong>Beach<span>OS</span></strong> is an Android operating system focused on privacy and security. With BeachOS, your device is preconfigured with the best security tools available, and without all the tracking and surveillance built into a normal Android device.
+
+<strong>Beach<span>OS</span></strong> is a collaborative open source project sponsored by the <a href="https://www.beachinstitute.org">Beach Institute</a>, a 501(c)(3) non-profit dedicated to making privacy and security available for all.

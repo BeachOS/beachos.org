@@ -1,0 +1,36 @@
+---
+title: Updates
+description: How BeachOS stays up to date
+redirect_from: /features/system-updates/
+toc: true
+---
+
+Once BeachOS is installed on the device, it will receive frequent Over-The-Air (OTA) updates directly from our servers automatically.
+
+## OS updates
+
+The device automatically checks for, downloads and install updates.
+
+A reboot is required to finish updating, you will get a notification for that.
+
+Updates are typically done monthly, following Android Open Source Project security releases.
+
+You can check for updates and control update settings from **Settings -> System -> Updates**.
+
+A changelog can also be viewed there, or by tapping the update notification.
+
+### Manual installation
+
+If you'd like to manually update your BeachOS install, see [[ota]].
+
+### Security patch level
+
+For more information about the security patch level, see [[bulletin]].
+
+## App updates
+
+Some of the apps included with BeachOS are updated via F-Droid.
+
+You can check for updates by opening F-Droid and pulling down to refresh.
+
+This will show any available updates in the Updates tab.
